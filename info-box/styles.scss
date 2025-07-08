@@ -1,0 +1,116 @@
+// INFO BOX (large)
+
+.box {
+	background: $background-color;
+	margin: 10px;
+	padding: 12px;
+	display: flex;
+	flex-flow: row;
+	align-items: stretch;
+	justify-content: flex-end;
+}
+
+.boxinfo-tab > div > .tab-content {
+	background: $box-background-color;
+}
+
+.boxinfo-tab > div,
+.boxinfo-tab > div > .tab-content {
+	min-height: calc(100% - 15px);
+	height: calc(100% - 15px);
+}
+
+.boxinfo {
+	margin-top: 3px;
+}
+
+.boxinfo-tab {
+	flex-basis: 70%;
+	padding: 0;
+}
+
+.box > p {
+	padding: 0;
+	margin: 0
+}
+
+.box a {
+	color: $muted-teal;
+}
+
+.box a:hover {
+	color: $muted-teal;
+}
+
+.boxpic {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 400px;
+	padding: 0 10px 0 0;
+}
+
+.boxpic img {
+	width: 100%;
+	border: 2px solid $border-color;
+	margin-top: 3px;
+	border-radius: 5px;
+}
+
+.boxpic p {
+	margin: 0;
+	line-height: 0;
+	padding: 0
+}
+
+.boxpic .image-container {
+	padding: 0;
+	margin-top: -17px
+}
+
+.box-header {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	border-bottom: 2px solid $text-color;
+	margin-right: 4px
+}
+
+.box-title {
+	flex-basis: 60%
+}
+
+.box-title h2,
+.box-title .h2 {
+	font-size: calc(14px + 0.4vw) !important;
+	margin-bottom: 0;
+	margin-top: .15em;
+	padding-top: 0;
+	line-height: 1.1
+}
+
+.box-header p {
+	margin-bottom: 5px
+}
+
+.box-type {
+	flex-basis: 40%;
+	text-align: right;
+	font-family: $secondary-font;
+	font-size: calc(14px + 0.4vw);
+}
+
+.box .tab-content {
+	box-shadow: none;
+	border: 0;
+	border-top: 1px solid $secondary-color;
+}
+
+.box .nav-tabs > li > a {
+	font-size: 1em;
+	letter-spacing: 1px;
+	font-weight: none;
+	line-height: 1;
+	padding-bottom: .25em
+}
