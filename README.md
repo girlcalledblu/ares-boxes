@@ -8,6 +8,12 @@ You should utilize `<br/>` within the includes for carriage returns. To add link
 
 The CSS styling utilizes the Basic Blu theme, but can be easily adapted to your own theme.
 
+## Creation Steps
+
+1. Copy and paste the text in the SCSS file into your game's Custom Styles.
+2. Create a new page for the HTML. It will need to be named `inc:infobox` (or whatever the include is named) or it will not pull the include correctly. Copy and paste the HTML text without adding spaces or carriage returns.
+3. Copy and paste the include where you would like the box and it should appear.
+
 ## Boxes Included
 * The Basic Info Box: this is a great way to organize IC and OOC information about things like creatures in bestiaries, known threats, or other information that requires delination between IC and OOC information.
 * The Basic Info Box, but small: Same as above, but smaller for more compact information. See the details on this box to learn how to put this into two columns for even tighter layouts.
