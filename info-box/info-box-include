@@ -1,0 +1,8 @@
+[[include inc:infobox
+|name=Name
+|type=Type
+|keyword=Tag
+|image=theme_images/noicon.png
+|icinfo=IC Information
+|oocinfo=OOC Information
+]]
